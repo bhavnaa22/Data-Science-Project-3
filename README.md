@@ -1,1 +1,67 @@
 # Data-Science-Project-3
+# Forecasting Projects
+
+This repository contains three forecasting projects focusing on daily, monthly, and yearly data trends. Each project demonstrates the use of data preprocessing, time-series analysis, and forecasting techniques to predict future values effectively.
+
+---
+
+## Table of Contents
+- [Project Overview](#project-overview)
+- [Features](#features)
+- [Requirements](#requirements)
+- [Installation](#installation)
+- [Usage](#usage)
+- [File Structure](#file-structure)
+- [Contributing](#contributing)
+- [License](#license)
+
+---
+
+## Project Overview
+
+### 1. **Daily Forecast Project**
+   - Focuses on short-term trends.
+   - Implements techniques like:
+     - Data preprocessing (handling missing values, scaling).
+     - Forecasting models such as ARIMA or LSTM.
+   - Objective: Predict daily values with high accuracy.
+
+### 2. **Monthly Forecast Project**
+   - Explores medium-term forecasting over months.
+   - Includes:
+     - Aggregation of daily data into monthly summaries.
+     - Seasonal decomposition and trend analysis.
+   - Objective: Identify seasonal and cyclical patterns in the data.
+
+### 3. **Yearly Forecast Project**
+   - Focuses on long-term forecasting over years.
+   - Techniques:
+     - Modeling yearly trends and periodic components.
+     - Application of models like SARIMA or Prophet.
+   - Objective: Provide insights into long-term trends and growth.
+
+---
+
+## Features
+- Comprehensive data preprocessing pipelines.
+- Time-series visualizations for trend, seasonality, and residual analysis.
+- Model evaluation using metrics like RMSE, MAE, and MAPE.
+- Forecasting using advanced machine learning and statistical methods.
+
+---
+
+## Requirements
+### Python Libraries
+Ensure you have Python 3.7+ and the following libraries installed:
+- `pandas`
+- `numpy`
+- `matplotlib`
+- `seaborn`
+- `scikit-learn`
+- `statsmodels`
+- `fbprophet` (for time-series forecasting)
+- `tensorflow` (if using LSTMs)
+
+Install dependencies with:
+```bash
+pip install -r requirements.txt
